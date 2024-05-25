@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1024px) {
+  .custom-landing-box {
+    margin-top: 3rem;
+    max-width: 1024px;
+  }
+  .landing-page-box h1 {
+    font-size: 3.2rem;
+  }
+  .project-content-container h1 {
+    font-size: 30px;
+  }
+  .vertical-line {
+    margin: 0rem 2rem 0rem 0rem;
+  }
+  .frontend-all-skills {
+    padding: 10px 10px;
+  }
+  .indivisual-skill {
+    margin: 8px 10px;
+  }
+  .frontend-skills-container {
+    padding: 1rem 0 0 0;
+  }
+  .common-project-container {
+    max-width: 1024px;
+  }
+  .common-project-container img {
+    width: 56%;
+  }
+  .project-content-container {
+    width: 43%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #part1 {
+    margin-top: 1rem;
+    /* max-width: 1024px; */
+  }
+  .landing-page-box h1 {
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .greet {
+    font-size: 1rem;
+  }
+  .about-content {
+    flex-direction: column-reverse;
+  }
+  .about-content img {
+    width: 75%;
+    margin: auto;
+  }
+  .about-container p {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+  .indivisual-skill {
+    padding: 0.5rem 0.7rem;
+  }
+  .frontend-header {
+    font-size: 1.1rem;
+  }
+  .indivisual-skill h6 {
+    font-size: 14px;
+  }
+  .project-content-container h1 {
+    font-size: 30px;
+}
+.common-project-container {
+  flex-direction: column;
+}
+.project-content-container {
+  width: 100%;
+}
+.common-project-container img {
+  width: 75%;
+}
+.contact-container {
+  box-shadow: 0 0 3px 0px rgb(255, 165, 0);
+}
+.contact-container {
+  width: 100%;
+}
+.container, .container-sm {
+  max-width: 678px;
+}
+  
+}
+
+@media only screen and (max-width: 575px) {
+  .landing-page-box h1 {
+    font-size: 2.5rem;
+  }
+  .greet {
+    font-size: 1rem;
+  }
+  .vertical-line {
+    margin: 0rem 1rem 0rem 0rem;
+  }
+  #part1 {
+    max-width: 600px;
+  }
+  .landing-page-box h2 {
+    margin-top: 1rem;
+  }
+  .landing-page-box p {
+    padding: 0.5rem 0rem 0rem 0rem;
+    font-size: 14px;
+  }
+
+  .landing-page-box button {
+    font-size: 16px;
+    margin: 3rem 0rem 1rem 0rem;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0.5rem;
+  }
+  .project-content-container h1 {
+    font-size: 24px;
+}
+.contact-container {
+  box-shadow: 0 0 1px 0px rgb(255, 165, 0);
+}
+.form-control-lg {
+  padding: -0.2rem 0.5rem;
+}
+.contact-container input {
+  font-size: 1rem;
+}
+.form-control {
+  font-size: 1rem;
+}
+.contact-heading h2 {
+  font-size: 18px;
+}
+.contact-container button{
+    margin: 2rem 0rem 1rem 0rem
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+  .landing-page-box h1 {
+    font-size: 2.2rem;
+  }
+  .greet {
+    font-size: 1rem;
+  }
+ 
+  .landing-page-box p {
+    padding: 0.5rem 0rem 0rem 0rem;
+    font-size: 14px;
+  }
+
+  .landing-page-box button {
+    font-size: 16px;
+    margin: 3rem 0rem 1rem 0rem;
+  }
+  .landing-page-box h2{
+    font-size: 1.3rem;
+  }
+  .project-content-container h1 {
+    font-size: 24px;
+}
+.contact-container button{
+  margin: 2rem 0rem 1rem 0rem
+}
+
+}
