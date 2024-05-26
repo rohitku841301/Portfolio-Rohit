@@ -1,13 +1,13 @@
 @media only screen and (max-width: 1024px) {
   .custom-landing-box {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     max-width: 1024px;
   }
   .landing-page-box h1 {
     font-size: 3.2rem;
   }
   .project-content-container h1 {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
   .vertical-line {
     margin: 0rem 2rem 0rem 0rem;
@@ -65,7 +65,7 @@
     font-size: 14px;
   }
   .project-content-container h1 {
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 .common-project-container {
   flex-direction: column;
@@ -101,8 +101,8 @@
   #part1 {
     max-width: 600px;
   }
-  .landing-page-box h2 {
-    margin-top: 1rem;
+  .landing-page-box .title {
+    margin-top: 0.7rem;
   }
   .landing-page-box p {
     padding: 0.5rem 0rem 0rem 0rem;
@@ -116,9 +116,7 @@
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 0.5rem;
   }
-  .project-content-container h1 {
-    font-size: 24px;
-}
+ 
 .contact-container {
   box-shadow: 0 0 1px 0px rgb(255, 165, 0);
 }
@@ -136,6 +134,22 @@
 }
 .contact-container button{
     margin: 2rem 0rem 1rem 0rem
+}
+.vertical-line-box {
+  width: 3px;
+}
+.icon {
+  width: 1.5rem;
+}
+.about-container h1 {
+   padding-top: 0rem;
+}
+.landing-page-box h1 {
+  font-size: 2rem;
+}
+.project-content-container h1 {
+  font-size: 1.4rem;
+  padding-top: 1rem;
 }
 
 }
@@ -165,6 +179,19 @@
 }
 .contact-container button{
   margin: 2rem 0rem 1rem 0rem
+}
+.about-container h1 {
+  padding-top: 0rem;
+}
+.landing-page-box h1 {
+ font-size: 2rem;
+}
+.project-content-container h1 {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+.contact-heading h2 {
+  font-size: 1rem;
 }
 
 }

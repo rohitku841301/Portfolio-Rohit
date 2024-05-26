@@ -4,6 +4,7 @@ const part2Div = document.getElementById("part2");
 const part3Div = document.getElementById("part3");
 const part4Div = document.getElementById("part4");
 const part5Div = document.getElementById("part5");
+const box = document.getElementById("box");
 
 
 const part1Height = part1Div.clientHeight;
@@ -11,6 +12,7 @@ const part2Height = part2Div.clientHeight;
 const part3Height = part3Div.clientHeight;
 const part4Height = part4Div.clientHeight;
 const part5Height = part5Div.clientHeight;
+const boxHeight = box.clientHeight;
 
 
 
@@ -27,6 +29,7 @@ part4Line.style.height = `${part4Height}px`;
 const part5Line = document.getElementById("part5-line");
 part5Line.style.height = `${part5Height}px`;
 
+document.getElementById("canvas").style.height=`${boxHeight}px`
 
 // Little Canvas things
 var canvas = document.querySelector("#canvas"),
