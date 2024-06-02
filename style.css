@@ -95,6 +95,9 @@ p {
     --bs-navbar-padding-y: 1rem;
 }
 
+.navbar-nav {
+     --bs-nav-link-hover-color: white;
+}
 .custom-nav-box {
     background-color: transparent !important;
     width: 100%;
@@ -656,4 +659,9 @@ canvas {
 .contact-heading h2{
     font-size: 1rem;
     letter-spacing: 0px;
+  }
+
+  .form-control-lg {
+
+    font-size: 1rem !important;
   }

@@ -29,6 +29,44 @@ part4Line.style.height = `${part4Height}px`;
 const part5Line = document.getElementById("part5-line");
 part5Line.style.height = `${part5Height}px`;
 
+document.getElementById("scrollToProjectSection").addEventListener("click",()=>{
+    document.getElementById("part4").scrollIntoView({behavior:"smooth"});
+})
+
+document.getElementById("scrollToHome").addEventListener("click",()=>{
+    document.getElementById("homeSection").scrollIntoView({behavior:"smooth"});
+})
+document.getElementById("scrollToAbout").addEventListener("click",()=>{
+    document.getElementById("part2").scrollIntoView({behavior:"smooth"});
+})
+document.getElementById("scrollToSkills").addEventListener("click",()=>{
+    document.getElementById("part3").scrollIntoView({behavior:"smooth"});
+})
+document.getElementById("scrolltoProject").addEventListener("click",()=>{
+    document.getElementById("part4").scrollIntoView({behavior:"smooth"});
+})
+document.getElementById("scrollToContact").addEventListener("click",()=>{
+    document.getElementById("part5").scrollIntoView({behavior:"smooth"});
+})
+document.getElementById("scrollToContactMe").addEventListener("click",()=>{
+    document.getElementById("part5").scrollIntoView({behavior:"smooth"});
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById("canvas").style.height=`${boxHeight}px`
 
 // Little Canvas things
